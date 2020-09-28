@@ -1,0 +1,40 @@
+<p>list-factura works!</p>
+<div class="container">
+
+  <div>
+    <div class="form-group">
+      <label>Crear nueva factura</label>
+      <button class="btn-group btn-primary" (click)="Facturar()">Crear factura </button>
+    </div>
+  </div>
+  <div class="table-responsive ">
+    <table class="table  table-striped">
+      <thead>
+        <tr class="table-striped ">
+          <th scope="col">Nombre </th>
+          <th scope="col">Telefono</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let li of listFacturas" class="table-striped ">
+          <td>{{li.id}} </td>
+          <td>{{li.idCliente}}</td>
+          <td>{{li.fechaFactura}}</td>
+          <td>
+            <div class="btn-group" role="group">
+
+
+              <!--<button (click)="Seleccionar(li)" class="btn btn-secondary">Editar</button>-->
+
+            </div>
+
+
+          </td>
+          <td>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

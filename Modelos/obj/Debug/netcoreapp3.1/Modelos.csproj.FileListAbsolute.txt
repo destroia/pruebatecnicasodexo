@@ -1,0 +1,9 @@
+C:\Users\destr\source\repos\PruebaTecnicaSodexo\Modelos\bin\Debug\netcoreapp3.1\Modelos.deps.json
+C:\Users\destr\source\repos\PruebaTecnicaSodexo\Modelos\bin\Debug\netcoreapp3.1\Modelos.dll
+C:\Users\destr\source\repos\PruebaTecnicaSodexo\Modelos\bin\Debug\netcoreapp3.1\Modelos.pdb
+C:\Users\destr\source\repos\PruebaTecnicaSodexo\Modelos\obj\Debug\netcoreapp3.1\Modelos.csprojAssemblyReference.cache
+C:\Users\destr\source\repos\PruebaTecnicaSodexo\Modelos\obj\Debug\netcoreapp3.1\Modelos.AssemblyInfoInputs.cache
+C:\Users\destr\source\repos\PruebaTecnicaSodexo\Modelos\obj\Debug\netcoreapp3.1\Modelos.AssemblyInfo.cs
+C:\Users\destr\source\repos\PruebaTecnicaSodexo\Modelos\obj\Debug\netcoreapp3.1\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\destr\source\repos\PruebaTecnicaSodexo\Modelos\obj\Debug\netcoreapp3.1\Modelos.dll
+C:\Users\destr\source\repos\PruebaTecnicaSodexo\Modelos\obj\Debug\netcoreapp3.1\Modelos.pdb

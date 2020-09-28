@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cc7jp4Zx0PG4ryuWHIhTuSelaBgiq3Ki7+Y5Kpzn0S7hcEIlFfyRXiGScPN95w4DnP1iBCc9A9qCAXMTphxwbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\destr\\source\\repos\\PruebaTecnicaSodexo\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\destr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\destr\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
