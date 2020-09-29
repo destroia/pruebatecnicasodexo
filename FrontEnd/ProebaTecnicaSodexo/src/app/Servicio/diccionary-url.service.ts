@@ -14,4 +14,10 @@ export class DiccionaryUrlService {
 
   //Facturas
   static GetFacturas: string = "Facturas/GetFacturas/"
+  
+  //Producto
+  static GetProductos: string = "Productos/GetPeoductos/";
+
+  //Venta
+  static PostVenta: string = "Productos/PostVenta/"
 }

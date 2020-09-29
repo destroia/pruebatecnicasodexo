@@ -17,12 +17,11 @@ namespace Modelos
         [Required]
         public string DescripcionProducto { get; set; }
         [Required]
-        public decimal Precio { get; set; }
-        [Required]
-        public decimal Iva { get; set; }
-        [Required]
-        public decimal PrecioIva { get; set; }
-       
+        public decimal PrecioSinIva { get; set; }   
+        [NotMapped]
+        public decimal PrecioTotal { get; set; }
+        [NotMapped]
+        public int Cantidad { get; set; }
 
     }
 }

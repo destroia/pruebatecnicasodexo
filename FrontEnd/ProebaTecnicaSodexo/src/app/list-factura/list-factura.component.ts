@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Facturas } from '../modelos/facturas';
 import { Cliente } from '../modelos/cliente';
 import { FacturaService } from '../Servicio/factura.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-list-factura',
@@ -10,7 +11,7 @@ import { FacturaService } from '../Servicio/factura.service';
 })
 export class ListFacturaComponent implements OnInit {
 
-  constructor(private facturasSer: FacturaService) {
+  constructor(private facturasSer: FacturaService, private route: Router) {
   }
   cliente: Cliente;
   listFacturas: Facturas[];
@@ -25,7 +26,7 @@ export class ListFacturaComponent implements OnInit {
   }
 
   Facturar() {
-    
+    this.route.navigate(["/Facturar"]);
   }
 
 }

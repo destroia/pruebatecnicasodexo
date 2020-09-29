@@ -6,6 +6,8 @@ namespace Data.Interfaz
 {
     public interface IProducto
     {
-        IEnumerable<Producto> GetProductos(Guid IdFactura);
+
+        System.Threading.Tasks.Task<IEnumerable<Producto>> GetProductos();
+        System.Threading.Tasks.Task<bool> Venta(List<Producto> lp ,Guid idCli);
     }
 }

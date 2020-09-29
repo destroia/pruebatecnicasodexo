@@ -7,6 +7,7 @@ import { ListClienteComponent } from './list-cliente/list-cliente.component';
 import { ListFacturaComponent } from './list-factura/list-factura.component';
 import { FacturarComponent } from './facturar/facturar.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
